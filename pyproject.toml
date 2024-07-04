@@ -1,0 +1,13 @@
+# from ChatGPT
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "C", "N", "I"]
+ignore = ["E501"]
+exclude = ["build", "dist", ".venv"]
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
